@@ -4,8 +4,8 @@ CC = gcc
 CFLAGS = -Wall -Wextra -std=c11 -pedantic -g
 LDLIBS = -lm
 PROG = adventureTime
-SRC = $(PROG).c #hero.c
-HDR = #header name in here hero.h
+SRC = $(PROG).c game.c 
+HDR = game.h #header name in here hero.h
 OBJ = $(SRC:.c=.o)
 
 # Targets
